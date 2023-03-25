@@ -141,10 +141,10 @@ kubectl delete -f kube-manifests/
 - https://docs.microsoft.com/en-us/azure/aks/use-managed-identity
 
 ## My Notes
-Connect-AzAccount
-az account set -n "Visual Studio Professional" -s "your subscription"
-kubectl get nodes
-Unable to connect to the server: dial tcp: lookup aks-demo-dns-azpx555m.hcp.australiaeast.azmk8s.io: no such host
+Connect-AzAccount<br> 
+az account set -n "Visual Studio Professional" -s "your subscription"<br>  
+kubectl get nodes <br> 
+Unable to connect to the server: dial tcp: lookup aks-demo-dns-azpx555m.hcp.australiaeast.azmk8s.io: no such host<br>  
+az aks get-credentials --resource-group aks-rg1 --name aksdemo1<br>   
 
-az aks get-credentials --resource-group aks-rg1 --name aksdemo1
 ![image](https://user-images.githubusercontent.com/38564689/227734050-bdaa8d1f-ddc7-49e0-8c3e-66b990c7d042.png)
