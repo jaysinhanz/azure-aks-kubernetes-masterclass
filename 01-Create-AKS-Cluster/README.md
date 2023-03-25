@@ -139,3 +139,12 @@ kubectl delete -f kube-manifests/
 
 ## Why Managed Identity when creating Cluster?
 - https://docs.microsoft.com/en-us/azure/aks/use-managed-identity
+
+My Notes
+Connect-AzAccount
+az account set -n "Visual Studio Professional" -s "ffff1de0-299f-4676-bb62-4d6559b1f628"
+kubectl get nodes
+Unable to connect to the server: dial tcp: lookup aks-demo-dns-azpx555m.hcp.australiaeast.azmk8s.io: no such host
+
+az aks get-credentials --resource-group aks-rg1 --name aksdemo1
+![image](https://user-images.githubusercontent.com/38564689/227734050-bdaa8d1f-ddc7-49e0-8c3e-66b990c7d042.png)
